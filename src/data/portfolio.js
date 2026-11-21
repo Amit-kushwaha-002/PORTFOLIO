@@ -2,6 +2,7 @@ export const portfolioData = {
   personal: {
     name: "Amit Kushwaha",
     initials: "AK",
+    avatar: "/profile.jpg",
     role: "Full Stack Developer (MERN Stack)",
     status: "Available for Opportunities",
     location: "India",

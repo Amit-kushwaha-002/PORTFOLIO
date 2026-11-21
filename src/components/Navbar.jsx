@@ -62,8 +62,12 @@ export default function Navbar() {
             className="flex items-center gap-3 group focus:outline-none"
             aria-label="Amit Kushwaha Home"
           >
-            <div className="w-10 h-10 rounded-lg bg-brand-blue flex items-center justify-center text-white font-bold text-lg shadow-sm group-hover:bg-brand-blue-dark transition-colors">
-              {portfolioData.personal.initials}
+            <div className="w-10 h-10 rounded-full overflow-hidden border-2 border-brand-blue shadow-sm shrink-0 group-hover:scale-105 transition-transform">
+              <img
+                src={portfolioData.personal.avatar}
+                alt={portfolioData.personal.name}
+                className="w-full h-full object-cover object-top"
+              />
             </div>
             <div className="flex flex-col">
               <span className="font-bold text-lg text-text-heading tracking-tight leading-tight group-hover:text-brand-blue transition-colors">

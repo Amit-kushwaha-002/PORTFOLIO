@@ -30,7 +30,6 @@ export default function About() {
               </h3>
 
               <p className="text-base sm:text-lg text-text-body leading-relaxed">
-                {portfolioData.personal.bio}
               </p>
 
               <div className="pt-4 border-t border-border-default grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -60,14 +59,13 @@ export default function About() {
           {/* Profile Photo Placeholder & Fact Card */}
           <div className="lg:col-span-4 space-y-6">
             <div className="bg-white border border-border-default rounded-xl p-6 shadow-unesco-card text-center space-y-4">
-              {/* Profile Photo Placeholder */}
-              <div className="mx-auto w-36 h-36 rounded-2xl bg-gradient-to-br from-brand-blue-tint via-slate-100 to-blue-50 border-2 border-brand-blue-border flex flex-col items-center justify-center p-3 shadow-inner relative group">
-                <div className="w-20 h-20 rounded-full bg-brand-blue text-white flex items-center justify-center text-3xl font-bold shadow-md">
-                  {portfolioData.personal.initials}
-                </div>
-                <span className="mt-2 text-xs font-semibold text-brand-blue">
-                  Profile Photo Placeholder
-                </span>
+              {/* Profile Photo */}
+              <div className="mx-auto w-36 h-36 rounded-2xl overflow-hidden border-2 border-brand-blue-border shadow-md relative group">
+                <img
+                  src={portfolioData.personal.avatar}
+                  alt={portfolioData.personal.name}
+                  className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-300"
+                />
               </div>
 
               <div>
