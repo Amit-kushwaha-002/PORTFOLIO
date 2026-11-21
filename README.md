@@ -41,8 +41,7 @@ PROFILE/
 ├── package.json               # Dependencies and scripts
 ├── postcss.config.js          # PostCSS configuration
 ├── tailwind.config.js         # UNESCO color palette, shadows, and container tokens
-├── vite.config.js             # Vite development server configuration
-└── DESIGN_SPEC.md             # Formal design analysis & specification document
+└── vite.config.js             # Vite development server configuration
 ```
 
 ---

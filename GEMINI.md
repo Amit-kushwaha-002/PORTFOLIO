@@ -51,7 +51,6 @@ The visual design, spacing, typography, and interaction patterns replicate the i
   - `Footer.jsx`: Deep Navy multi-column footer with copyright and back-to-top button.
   - `Icons.jsx`: SVG icons for LinkedIn and GitHub.
 - **`tailwind.config.js`:** Custom color tokens, shadows, and container specifications.
-- **`DESIGN_SPEC.md`:** Detailed initial design analysis and computed values.
 
 ---
 
