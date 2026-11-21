@@ -7,7 +7,7 @@ export const portfolioData = {
     role: "Full Stack Developer (MERN Stack)",
     status: "Available for Opportunities",
     location: "India",
-    tagline: "Building scalable web applications and AI-powered solutions.",
+    tagline: "Solving real-world problems with clean full-stack architecture and applied AI tools.",
     bio: "Hi, I'm Amit Kushwaha, a Full Stack Developer specializing in the MERN stack (React, Node.js, Express, MongoDB). I focus on building scalable web applications, secure RESTful APIs, and integrating AI models into practical, real-world solutions. With a strong foundation in C++, OOPs, and Data Structures, I enjoy writing clean, efficient code and solving complex engineering problems—whether developing healthcare tools like Pulmo AI or architecting secure authentication systems.",
     collaboration: "Comfortable coordinating development sprints, code reviews, and version control using Git and GitHub.",
   },

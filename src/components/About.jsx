@@ -12,11 +12,10 @@ export default function About() {
             Professional Profile
           </div>
           <h2 className="text-2xl sm:text-3xl font-bold text-text-heading tracking-tight">
-            About Amit Kushwaha
+            About
           </h2>
           <p className="mt-2 text-text-muted text-base max-w-2xl">
-            A comprehensive overview of technical capabilities, engineering philosophy, and domain focus.
-          </p>
+            Computer Science undergrad focused on production-ready MERN backends, clean frontend UX, and applied AI.</p>
         </div>
 
         {/* 2-Column Content Grid */}
