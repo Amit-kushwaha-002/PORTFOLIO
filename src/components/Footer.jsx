@@ -15,11 +15,11 @@ export default function Footer() {
           {/* Brand & Mission Column */}
           <div className="md:col-span-5 space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-9 h-9 rounded-full overflow-hidden border-2 border-brand-blue shadow-sm shrink-0">
+              <div className="w-9 h-9 rounded-full overflow-hidden border-2 border-brand-blue shadow-sm shrink-0 bg-slate-100">
                 <img
                   src={portfolioData.personal.avatar}
                   alt={portfolioData.personal.name}
-                  className="w-full h-full object-cover object-top"
+                  className="w-full h-full object-cover object-center"
                 />
               </div>
               <span className="font-bold text-xl text-white tracking-tight">

@@ -60,11 +60,11 @@ export default function About() {
           <div className="lg:col-span-4 space-y-6">
             <div className="bg-white border border-border-default rounded-xl p-6 shadow-unesco-card text-center space-y-4">
               {/* Profile Photo */}
-              <div className="mx-auto w-36 h-36 rounded-2xl overflow-hidden border-2 border-brand-blue-border shadow-md relative group">
+              <div className="mx-auto w-52 sm:w-56 aspect-[3/4] rounded-2xl overflow-hidden border-2 border-brand-blue-border shadow-md relative group bg-slate-100">
                 <img
-                  src={portfolioData.personal.avatar}
+                  src={portfolioData.personal.photo}
                   alt={portfolioData.personal.name}
-                  className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-300"
+                  className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
 
