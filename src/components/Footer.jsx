@@ -91,18 +91,15 @@ export default function Footer() {
             <p>{portfolioData.footer.copyright}</p>
           </div>
 
-          <div className="flex items-center gap-6">
-            <span>Designed with UNESCO-inspired institutional layout</span>
-            <button
-              type="button"
-              onClick={scrollToTop}
-              className="inline-flex items-center gap-1.5 text-slate-300 hover:text-white transition-colors"
-              aria-label="Back to top of page"
-            >
-              <span>Back to Top</span>
-              <ArrowUp className="w-3.5 h-3.5" />
-            </button>
-          </div>
+          <button
+            type="button"
+            onClick={scrollToTop}
+            className="inline-flex items-center gap-1.5 text-slate-300 hover:text-white transition-colors"
+            aria-label="Back to top of page"
+          >
+            <span>Back to Top</span>
+            <ArrowUp className="w-3.5 h-3.5" />
+          </button>
         </div>
       </div>
     </footer>

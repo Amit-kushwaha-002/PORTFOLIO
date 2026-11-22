@@ -97,7 +97,7 @@ export default function Hero() {
                   <CheckCircle2 className="w-4 h-4 text-brand-blue shrink-0 mt-0.5" />
                   <div>
                     <span className="font-semibold text-text-heading">Core Skills: </span>
-                    <span className="text-text-body">RESTful APIs, C++, OOPs, Performance Tuning</span>
+                    <span className="text-text-body">C, C++, Python, RESTful APIs, OOPs,</span>
                   </div>
                 </div>
 
@@ -113,7 +113,7 @@ export default function Hero() {
                   <CheckCircle2 className="w-4 h-4 text-brand-blue shrink-0 mt-0.5" />
                   <div>
                     <span className="font-semibold text-text-heading">Collaboration: </span>
-                    <span className="text-text-body">Git, GitHub, Team Sprint Workflows</span>
+                    <span className="text-text-body">Git, GitHub</span>
                   </div>
                 </div>
               </div>
