@@ -4,6 +4,7 @@ export const portfolioData = {
     initials: "AK",
     avatar: "/avatar.jpg",
     photo: "/profile.jpg",
+    resume: "/Amit_Kushwaha_Resume.pdf",
     role: "Full Stack Developer (MERN Stack)",
     status: "Available for Opportunities",
     location: "India",
@@ -118,6 +119,6 @@ export const portfolioData = {
 
   footer: {
     copyright: "© 2026 Amit Kushwaha. All rights reserved.",
-    tagline: "Designed with modern institutional precision and accessible architecture."
+    tagline: "Design with modern institutional precision and accessible architecture."
   }
 };

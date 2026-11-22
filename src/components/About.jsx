@@ -1,5 +1,5 @@
 import React from 'react';
-import { User, Code2, Cpu, GitBranch, ShieldCheck } from 'lucide-react';
+import { User, Code2, Cpu, GitBranch, ShieldCheck, Download, FileText, ExternalLink } from 'lucide-react';
 import { portfolioData } from '../data/portfolio';
 
 export default function About() {
@@ -15,7 +15,8 @@ export default function About() {
             About
           </h2>
           <p className="mt-2 text-text-muted text-base max-w-2xl">
-            Computer Science undergrad focused on production-ready MERN backends, clean frontend UX, and applied AI.</p>
+            Computer Science undergrad focused on production-ready MERN backends, clean frontend UX, and applied AI.
+          </p>
         </div>
 
         {/* 2-Column Content Grid */}
@@ -29,6 +30,7 @@ export default function About() {
               </h3>
 
               <p className="text-base sm:text-lg text-text-body leading-relaxed">
+                {portfolioData.personal.bio}
               </p>
 
               <div className="pt-4 border-t border-border-default grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -51,6 +53,30 @@ export default function About() {
                     Implementing JWT auth mechanisms, MVC structure, and strong algorithmic problem-solving with C++ and OOP principles.
                   </p>
                 </div>
+              </div>
+
+              {/* Resume Download & Preview Actions */}
+              <div className="pt-5 border-t border-border-default flex flex-wrap items-center gap-3">
+                <a
+                  href="/Amit_Kushwaha_Resume.pdf"
+                  download="Amit_Kushwaha_Resume.pdf"
+                  className="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-lg bg-brand-blue text-white font-semibold text-sm hover:bg-brand-blue-dark shadow-sm hover:shadow transition-all active:translate-y-0 hover:-translate-y-0.5"
+                  aria-label="Download Amit Kushwaha Resume PDF"
+                >
+                  <Download className="w-4 h-4" />
+                  <span>Download Resume</span>
+                </a>
+                <a
+                  href="/Amit_Kushwaha_Resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg bg-white border border-border-default text-text-body font-semibold text-sm hover:text-brand-blue hover:border-brand-blue-border hover:bg-brand-blue-tint transition-all"
+                  aria-label="Preview Amit Kushwaha Resume in new tab"
+                >
+                  <FileText className="w-4 h-4 text-text-muted" />
+                  <span>Preview Resume</span>
+                  <ExternalLink className="w-3.5 h-3.5 text-text-subtle" />
+                </a>
               </div>
             </div>
           </div>
