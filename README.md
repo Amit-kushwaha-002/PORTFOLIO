@@ -19,7 +19,7 @@ The site's visual design, layout architecture, typography, spacing, and micro-in
 ## 📁 Project Structure
 
 ```
-PROFILE/
+portfolio/
 ├── public/
 ├── src/
 │   ├── components/
@@ -82,7 +82,7 @@ npm run preview
 ### Deploy to Vercel
 1. Push your repository to GitHub.
 2. Go to [Vercel](https://vercel.com/) and click **"Add New Project"**.
-3. Import your GitHub repository (`Amit-kushwaha-002/PROFILE` or your chosen repo name).
+3. Import your GitHub repository (`Amit-kushwaha-002/portfolio` or your chosen repo name).
 4. Vercel automatically detects Vite:
    - **Framework Preset:** Vite
    - **Build Command:** `npm run build`

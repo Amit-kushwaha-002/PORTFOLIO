@@ -9,7 +9,7 @@ This file guides Antigravity and AI coding agents when working on, updating, or 
 - **Owner:** Amit Kushwaha
 - **Role:** Full Stack Developer (MERN Stack)
 - **Tagline:** "Building scalable web applications and AI-powered solutions."
-- **Repository:** [https://github.com/Amit-kushwaha-002/PROFILE](https://github.com/Amit-kushwaha-002/PROFILE)
+- **Repository:** [https://github.com/Amit-kushwaha-002/portfolio](https://github.com/Amit-kushwaha-002/portfolio)
 - **Email:** `amit01golu@gmail.com`
 - **LinkedIn:** [https://www.linkedin.com/in/amit-kushwaha-connect](https://www.linkedin.com/in/amit-kushwaha-connect)
 - **GitHub:** [https://github.com/Amit-kushwaha-002](https://github.com/Amit-kushwaha-002)
